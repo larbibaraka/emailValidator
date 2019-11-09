@@ -21,11 +21,19 @@ function App() {
     setEmail(e.target.value)
   }
   return (
-    <div className="App">
-      <input name="email" type="email" value={email} onChange={handleInput}/>
-      <button role="button" onClick={handleClick}>Validate !</button>
-      <br/>
-      {!valid ?  "" : <h3>Email : {email} is {valid ? "valid" : "not valid"}</h3>}
+    <div className="container">
+    <div className="wrapper">
+      <div className="wrapper-inside">
+          <div className="">
+            <input id="icon_prefix" className="validate" name="email" type="email" value={email} onChange={handleInput} />
+          </div>
+          <div>
+             <a className="waves-effect waves-light btn teal accent-3" role="button" onClick={handleClick}>check</a>
+          </div>
+          {!valid ?  "" : <h5 className=" green accent-4 ">Email : {email} is {valid ? "valid" : "not valid"}</h5>}
+      </div>
+  </div>
+
     </div>
   );
 }
