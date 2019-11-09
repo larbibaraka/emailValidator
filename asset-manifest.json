@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/emailValidator/static/css/main.17412ca3.chunk.css",
+    "main.js": "/emailValidator/static/js/main.a7da21ce.chunk.js",
+    "main.js.map": "/emailValidator/static/js/main.a7da21ce.chunk.js.map",
+    "runtime-main.js": "/emailValidator/static/js/runtime-main.c527ae05.js",
+    "runtime-main.js.map": "/emailValidator/static/js/runtime-main.c527ae05.js.map",
+    "static/js/2.898f508d.chunk.js": "/emailValidator/static/js/2.898f508d.chunk.js",
+    "static/js/2.898f508d.chunk.js.map": "/emailValidator/static/js/2.898f508d.chunk.js.map",
+    "index.html": "/emailValidator/index.html",
+    "precache-manifest.0791b8fc37c58d0c54960a59cbd0cca3.js": "/emailValidator/precache-manifest.0791b8fc37c58d0c54960a59cbd0cca3.js",
+    "service-worker.js": "/emailValidator/service-worker.js",
+    "static/css/main.17412ca3.chunk.css.map": "/emailValidator/static/css/main.17412ca3.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c527ae05.js",
+    "static/js/2.898f508d.chunk.js",
+    "static/css/main.17412ca3.chunk.css",
+    "static/js/main.a7da21ce.chunk.js"
+  ]
+}
